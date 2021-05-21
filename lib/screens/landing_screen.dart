@@ -1,15 +1,15 @@
-import 'package:flash_chat/screens/employees_screen.dart';
-import 'package:flash_chat/screens/store_screen.dart';
+import 'package:smartshop_manager/screens/employees_screen.dart';
+import 'package:smartshop_manager/screens/store_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flash_chat/components/rounded_button.dart';
+import 'package:smartshop_manager/components/rounded_button.dart';
 import 'products_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flash_chat/screens/inventory_screen.dart';
+import 'package:smartshop_manager/screens/inventory_screen.dart';
 import 'package:provider/provider.dart';
-import 'package:flash_chat/models/model.dart';
-import 'package:flash_chat/constants.dart';
+import 'package:smartshop_manager/models/model.dart';
+import 'package:smartshop_manager/constants.dart';
 
 final _firestore = FirebaseFirestore.instance;
 User loggedInUser;

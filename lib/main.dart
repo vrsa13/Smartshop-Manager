@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flash_chat/screens/welcome_screen.dart';
-import 'package:flash_chat/screens/login_screen.dart';
-import 'package:flash_chat/screens/registration_screen.dart';
-import 'package:flash_chat/screens/products_screen.dart';
-import 'package:flash_chat/screens/landing_screen.dart';
-import 'package:flash_chat/screens/inventory_screen.dart';
-import 'package:flash_chat/screens/employees_screen.dart';
-import 'package:flash_chat/screens/add_employee.dart';
+import 'package:smartshop_manager/screens/welcome_screen.dart';
+import 'package:smartshop_manager/screens/login_screen.dart';
+import 'package:smartshop_manager/screens/registration_screen.dart';
+import 'package:smartshop_manager/screens/products_screen.dart';
+import 'package:smartshop_manager/screens/landing_screen.dart';
+import 'package:smartshop_manager/screens/inventory_screen.dart';
+import 'package:smartshop_manager/screens/employees_screen.dart';
+import 'package:smartshop_manager/screens/add_employee.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:flash_chat/screens/store_screen.dart';
+import 'package:smartshop_manager/screens/store_screen.dart';
 import 'package:provider/provider.dart';
-import 'package:flash_chat/models/model.dart';
+import 'package:smartshop_manager/models/model.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

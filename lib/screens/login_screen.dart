@@ -1,7 +1,7 @@
-import 'package:flash_chat/screens/landing_screen.dart';
+import 'package:smartshop_manager/screens/landing_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:flash_chat/components/rounded_button.dart';
-import 'package:flash_chat/constants.dart';
+import 'package:smartshop_manager/components/rounded_button.dart';
+import 'package:smartshop_manager/constants.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 

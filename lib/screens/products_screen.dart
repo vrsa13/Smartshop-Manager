@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flash_chat/constants.dart';
+import 'package:smartshop_manager/constants.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:provider/provider.dart';
-import 'package:flash_chat/models/model.dart';
+import 'package:smartshop_manager/models/model.dart';
 
 final _firestore = FirebaseFirestore.instance;
 User loggedInUser;
